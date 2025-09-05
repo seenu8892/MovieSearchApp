@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cntainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(132, 173, 175, 0.37);
+  color: rgb(10, 10, 10);
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #412c02;
+  text-align: center;
+  margin-top: 50px;
+}
+.card {
+  text-align: center;
+  padding: 5px;
+  margin: 100px auto;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(110, 86, 117, 0.146);
+  border: 2px solid rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 8px 32px 0 rgba(14, 20, 112, 0.881);
+}
+#btn {
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  cursor: pointer;
+}
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+}
+#moviePage {
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: 20px;
+  background-color: rgba(190, 219, 231, 0.603);
+}
+#movieList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(192, 72, 72, 0.1);
+}
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.movie-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+.movie-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+#mbtn {
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  cursor: pointer;
+  /* box-shadow: rgb(47, 16, 255) 0px 0px 8px 0px; */
+} 
+#searchInput {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: red 0px 0px 8px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+}
